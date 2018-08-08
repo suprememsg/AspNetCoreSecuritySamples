@@ -65,7 +65,7 @@ namespace AspNetCoreSecurity
                             SecurePolicy = CookieSecurePolicy.None,
                             Expiration = new TimeSpan(0, 15, 0)
                         };
-
+                         
                         // https://github.com/aspnet/Security/blob/release/2.0/src/Microsoft.AspNetCore.Authentication.OpenIdConnect/OpenIdConnectOptions.cs#L71
                         options.NonceCookie = new CookieBuilder()
                         {
